@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h1>Pass phrase by</h1>
+    <h1>Pass phrase by Saikrishna Vuppala</h1>
 
     <h2>Getting input</h2>
 
@@ -45,6 +45,9 @@
                 wrong++
                 alert("Access denied!")
                 out.innerHTML = "wrong score" + wrong
+                if (wrong>3){
+                    alert("Account blocked")
+                }
             }
             out.innerHTML = "correct count" + correct + " ; wrong count " + wrong
         }
